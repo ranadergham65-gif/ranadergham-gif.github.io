@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact |Rana</title>
+</head>
+<body lang="en" dir="ltr">
+  <header>
+    <p>Rana</p>
+    <nav>
+      <a href="index.html">About</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact Me</h1>
+    <form method="get" action="contact.html">
+      <p>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="reason">Reason for contact</label><br>
+        <select id="reason" name="reason">
+          <option value="question">Question</option>
+          <option value="project">Project collaboration</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+      <p>
+        <label for="msg">Your message</label><br>
+        <textarea id="msg" name="message" minlength="10" rows="5"></textarea>
+      </p>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 2026 Rana</p>
+  </footer>
+</body>
+</html>
